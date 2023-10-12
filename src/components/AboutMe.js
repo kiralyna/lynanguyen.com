@@ -1,25 +1,44 @@
-import React from 'react'
-import data from '../data.json'
+import React from 'react';
+import data from '../data.json';
+import '../style/AboutMe.css';
 
 function AboutMe() {
-    const { displayName, sex, age, location, lastLogin, mood, emoji, defaultPic } = data;
+    const { displayName, sex, age, location, onlineNow, lastLogin, mood, emoji, defaultPic } = data;
+    let today = new Date().toLocaleDateString("en-US");
+
     return (
     <div className="about-me-container">
-        <div className="display-name" align = "left" >
-            <b>{displayName}</b>
-        </div>
-        <div className="default-pic">
-            <img alt ="profile picture" src = {defaultPic} width = "300px" align = "left" />
-        </div>
-        <div className="asl-info" align = "left" >
-            {age} <br/>
-            {sex} <br/>
-            {location} <br/>
-            {lastLogin} <br/>
-        </div>
-        <div className="mood">
-            <p><b>Mood: </b>{mood} {emoji}</p>
-        </div>
+        <table>
+            <th>
+                <div className="display-name" >
+                    {displayName}
+                </div>
+            </th>
+            <tr>
+                <td className="default-pic-cell">
+                    <div className="default-pic">
+                            <img alt ="profile picture" src = {defaultPic}/>
+                    </div>
+                </td>
+                <td className="asl-info-cell">
+                    <div className="asl-info" >
+                        {age} <br/>
+                        {sex} <br/>
+                        {location} <br/>
+                        <img alt ="myspace online now" src = {onlineNow}/><br/>
+                        <text>Last Login:</text><br/>
+                        {today} <br/>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td className="mood-cell">
+                    <div className="mood">
+                        <p><b>Mood: </b>{mood} {emoji}</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
     </div>
   )
 }
