@@ -1,3 +1,7 @@
+head {
+  cursor: url(https://en.cursor.style/cursors/1832-louise-belcher-cursor.svg), default !important;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +9,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  cursor: url(https://en.cursor.style/cursors/1832-louise-belcher-cursor.svg), default !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+footer {
+  cursor: url(https://en.cursor.style/cursors/1832-louise-belcher-cursor.svg), default !important;
 }

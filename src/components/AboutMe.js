@@ -3,7 +3,7 @@ import data from '../data.json';
 import '../style/AboutMe.css';
 
 function AboutMe() {
-    const { displayName, sex, age, location, onlineNow, lastLogin, mood, emoji, defaultPic } = data;
+    const { displayName, sex, age, location, onlineNow, lastLogin, mood, emoji, defaultPic, pics, videos } = data;
     let today = new Date().toLocaleDateString("en-US");
 
     return (
@@ -34,7 +34,8 @@ function AboutMe() {
             <tr>
                 <td className="mood-cell">
                     <div className="mood">
-                        <p><b>Mood: </b>{mood} {emoji}</p>
+                        <b>Mood: </b>{mood} {emoji}<br/>
+                        View My: <a href = {pics} target = "_blank" >Pics</a> | <a href = {videos} target = "_blank">Videos</a>
                     </div>
                 </td>
             </tr>
