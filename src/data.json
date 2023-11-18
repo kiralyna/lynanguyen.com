@@ -4,10 +4,15 @@
     "age": "26",
     "location": "Los Angeles, CA",
     "onlineNow": "https://archive.org/download/myspaceon/myspaceon.gif",
-    "lastLogin": "10/05/2023",
     "mood": "anxious",
     "emoji": "xP",
-    "defaultPic": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    "defaultPic": "https://avatars.githubusercontent.com/u/147548647?v=4",
     "pics": "https://www.iconfinder.com/icons/1552464/image_photo_placeholder_screenshot_icon",
-    "videos": "https://www.youtube.com/watch?v=elHedOa_Fpc&ab_channel=RELAXATION%28LoFi%26CHILL%29"
+    "videos": "https://www.youtube.com/watch?v=elHedOa_Fpc&ab_channel=RELAXATION%28LoFi%26CHILL%29",
+    "messageIcon":"https://cdn4.iconfinder.com/data/icons/basic-ui-2-line/32/envelope-mail-message-email-letter-512.png",
+    "favoritesIcon":"https://cdn4.iconfinder.com/data/icons/basic-ui-2-line/32/heart-love-like-likes-loved-favorite-512.png",
+    "addFriendIcon":"https://cdn4.iconfinder.com/data/icons/basic-ui-2-line/32/people-plus-add-friend-member-512.png",
+    "email": "mailto:lynanguyen4131@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/lynanguyen4131/",
+    "instagram": "https://www.instagram.com/xxlynsanityxx/"
 }

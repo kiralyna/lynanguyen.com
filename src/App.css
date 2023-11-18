@@ -1,0 +1,122 @@
+/*Main*/
+* {
+    cursor: url(https://en.cursor.style/cursors/1832-louise-belcher-cursor.svg), default !important;
+}
+
+html {
+    overflow: auto;
+}
+
+body {
+    background-color: #2244CC;
+    background-image: url("./imgs/redwoods.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: Center Center;
+}
+
+#main {
+    background:transparent;
+    font-family: arial;
+    font-size: 14px;
+    color: {color:font color};
+    text-align: justify;
+    width: 70%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#main-left-col {
+    width: 25%;
+    float: left;
+    position: fixed;
+}
+
+#main-right-col {
+    width: 60%;
+    float: right;
+}
+
+#tiles {
+    background-color: rgba(255, 199, 187, 0.3);
+    border: 1px solid #213363;
+    padding: 5px;
+    margin: 5px 0px 5px 0px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;      
+}
+
+a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #698CBC;
+}
+  
+a:visited {
+    color: #213363;
+}
+  
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: #be03fc;
+}
+
+/*About Me*/
+.about-me-container {
+    float: left;
+}
+
+#about-me {
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#default-pic-col {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.default-pic img {
+    width: 150px;
+    height: auto;
+}
+
+#asl-info-col {
+    float: right;
+    width: 48%;
+    height: auto;
+}
+
+#asl-info-col img {
+    width: 70%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/*Contact*/
+#contacting-lyna {
+    background-color: #213363;
+}
+
+#contacting-lyna h3 {
+    color: #ffffff;
+}
+
+#contact-body a {
+    font-size: 16px;
+    padding: 10px;
+    text-align: justify;
+    vertical-align: baseline;
+}
+
+#contact-body img {
+    width: 10%;
+    padding: 10px;
+    text-align: left;
+}

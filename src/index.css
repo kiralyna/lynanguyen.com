@@ -1,4 +1,4 @@
-head {
+* {
   cursor: url(https://en.cursor.style/cursors/1832-louise-belcher-cursor.svg), default !important;
 }
 
@@ -15,8 +15,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-footer {
-  cursor: url(https://en.cursor.style/cursors/1832-louise-belcher-cursor.svg), default !important;
 }
