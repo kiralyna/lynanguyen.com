@@ -92,30 +92,47 @@ a:active {
 }
 
 #asl-info-col img {
-    width: 70%;
+    width: 50%;
     height: auto;
     margin-top: 10px;
     margin-bottom: 5px;
 }
 
 /*Contact*/
-#contacting-lyna {
-    background-color: #213363;
-}
-
-#contacting-lyna h3 {
-    color: #ffffff;
+#contact-tile {
+    background-color: rgba(255, 199, 187, 0.3);
+    border: 1px solid #213363;
+    margin: 5px 0px 5px 0px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;      
 }
 
 #contact-body a {
-    font-size: 16px;
-    padding: 10px;
+    font-size: 18px;
     text-align: justify;
-    vertical-align: baseline;
+    vertical-align: top;
 }
 
 #contact-body img {
-    width: 10%;
-    padding: 10px;
+    width: 5%;
+    padding-top: 2px;
+    padding-right: 10px;
     text-align: left;
+}
+
+#contact-body h3 {
+    color: #ffffff;
+    margin: 0px;
+    background-color: #213363;
+}
+
+#contact-title {
+    background: #213363;
+    border: #213363;
+    border-width: thick;
+    padding: 10px;
+}
+
+#contact-body td {
+    padding: 5px;
 }
