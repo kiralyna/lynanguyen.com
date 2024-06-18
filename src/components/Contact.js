@@ -6,12 +6,12 @@ function Contact() {
     const { email, linkedin, instagram, addFriendIcon, favoritesIcon, messageIcon } = data;
 
     return (
-        <div id="contact-tile">
+        <div id="tiles">
             <div id="contact">
-                <table id="contact-me">
-                    <tbody id="contact-body">
+                <table id="tile-table">
+                    <tbody id="tile-body">
                         <tr id="title">
-                            <th id="contact-title">
+                            <th id="tile-title">
                                 <h3>Contacting Lyna</h3>
                             </th>
                         </tr>

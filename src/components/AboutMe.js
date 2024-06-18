@@ -11,9 +11,9 @@ function AboutMe() {
             <table id="about-me">
                 <tbody id="about-body">
                     <tr id="name">
-                        <td id="display-name">
+                        <th id="display-name">
                             <h1>{displayName}</h1>
-                        </td>
+                        </th>
                     </tr>
                     <tr id="about-me-row">
                         <td id="default-pic-col">

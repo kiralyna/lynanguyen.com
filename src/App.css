@@ -18,7 +18,7 @@ body {
     background:transparent;
     font-family: arial;
     font-size: 14px;
-    color: {color:font color};
+    color: #000000;
     text-align: justify;
     width: 70%;
     padding: 10px;
@@ -39,10 +39,40 @@ body {
 #tiles {
     background-color: rgba(255, 199, 187, 0.3);
     border: 1px solid #213363;
+    margin: 10px auto;
+    -moz-border-radius: 4px; /* Firefox */
+    -webkit-border-radius: 4px; /* Safari and Chrome */
+    border-radius: 4px; /* Standard: For modern browsers */
+}
+
+#tile-body h3 {
+    color: #ffffff;
+    margin: 0px;
+    background-color: #213363;
+}
+
+#tile-title {
+    background: #213363;
+    border: #213363;
+    border-width: thick;
+    padding: 10px;
+}
+
+#tile-body th {
+    background: #213363;
+    border: #213363;
+    border-width: thick;
+    padding: 10px;
+    width: 100%;
+}
+
+#tile-body td {
     padding: 5px;
-    margin: 5px 0px 5px 0px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;      
+}
+
+#tile-table {
+    width: 100%;
+    margin: 0 auto;
 }
 
 a:link {
@@ -50,11 +80,11 @@ a:link {
     text-decoration: none;
     color: #698CBC;
 }
-  
+
 a:visited {
-    color: #213363;
+    color: #698CBC;
 }
-  
+
 a:hover {
     color: hotpink;
 }
@@ -75,19 +105,17 @@ a:active {
 }
 
 #default-pic-col {
-    float: left;
     width: 50%;
     height: auto;
 }
 
 .default-pic img {
-    width: 150px;
+    width: 90%;
     height: auto;
 }
 
 #asl-info-col {
-    float: right;
-    width: 48%;
+    width: 50%;
     height: auto;
 }
 
@@ -99,40 +127,43 @@ a:active {
 }
 
 /*Contact*/
-#contact-tile {
-    background-color: rgba(255, 199, 187, 0.3);
-    border: 1px solid #213363;
-    margin: 5px 0px 5px 0px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;      
-}
-
-#contact-body a {
-    font-size: 18px;
-    text-align: justify;
-    vertical-align: top;
-}
-
-#contact-body img {
+#contact-email img {
     width: 5%;
     padding-top: 2px;
     padding-right: 10px;
     text-align: left;
 }
 
-#contact-body h3 {
-    color: #ffffff;
-    margin: 0px;
-    background-color: #213363;
+#contact-email a {
+    font-size: 18px;
+    text-align: justify;
+    vertical-align: top;
 }
 
-#contact-title {
-    background: #213363;
-    border: #213363;
-    border-width: thick;
-    padding: 10px;
+#contact-linkedin img {
+    width: 5%;
+    padding-top: 2px;
+    padding-right: 10px;
+    text-align: left;
 }
 
-#contact-body td {
-    padding: 5px;
+#contact-linkedin a {
+    font-size: 18px;
+    text-align: justify;
+    vertical-align: top;
 }
+
+#contact-insta img {
+    width: 5%;
+    padding-top: 2px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+#contact-insta a {
+    font-size: 18px;
+    text-align: justify;
+    vertical-align: top;
+}
+
+/*Blurb*/

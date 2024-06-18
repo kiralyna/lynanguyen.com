@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   cursor: url(https://en.cursor.style/cursors/1832-louise-belcher-cursor.svg), default !important;
+  width: auto;
 }
 
 code {
