@@ -18,14 +18,14 @@ function AboutMe() {
                     <tr id="about-me-row">
                         <td id="default-pic-col">
                             <div className="default-pic">
-                                <img src = {defaultPic}/>
+                                <img alt="" src = {defaultPic}/>
                             </div>
                         </td>
                         <td id="asl-info-col">
                             {age} <br/>
                             {sex} <br/>
                             {location} <br/>
-                            <img src = {onlineNow}/><br/>
+                            <img alt="" src = {onlineNow}/><br/>
                             <text>Last Login:</text><br/>
                             {today} <br/>
                         </td>
