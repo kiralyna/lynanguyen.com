@@ -18,14 +18,14 @@ function AboutMe() {
                     <tr id="about-me-row">
                         <td id="default-pic-col">
                             <div className="default-pic">
-                                <img alt ="profile picture" src = {defaultPic}/>
+                                <img src = {defaultPic}/>
                             </div>
                         </td>
                         <td id="asl-info-col">
                             {age} <br/>
                             {sex} <br/>
                             {location} <br/>
-                            <img alt ="myspace online now" src = {onlineNow}/><br/>
+                            <img src = {onlineNow}/><br/>
                             <text>Last Login:</text><br/>
                             {today} <br/>
                         </td>
@@ -33,7 +33,7 @@ function AboutMe() {
                     <tr id="about-mood">
                         <td id="mood">
                             <b>Mood:</b> {mood} {emoji}<br/>
-                            View My: <a href = {pics} target = "_blank" >Pics</a> | <a href = {videos} target = "_blank">Videos</a>
+                            View My: <a href = {pics} target = "_blank" rel="noreferrer">Pics</a> | <a href = {videos} target = "_blank" rel="noreferrer">Videos</a>
                         </td>
                     </tr>
                 </tbody>

@@ -24,13 +24,13 @@ function Contact() {
                         <tr id="linkedin">
                             <td id="contact-linkedin">
                                 <img alt ="add icon" src = {addFriendIcon}></img>
-                                <a href = {linkedin} target = "_blank" >Add to Friends</a><br/>
+                                <a href = {linkedin} target = "_blank" rel="noreferrer">Add to Friends</a><br/>
                             </td>
                         </tr>
                         <tr id="insta">
                             <td id="contact-insta">
                                 <img alt ="add icon" src = {favoritesIcon}></img>
-                                <a href = {instagram} target = "_blank" >Add to Favorites</a><br/>
+                                <a href = {instagram} target = "_blank" rel="noreferrer">Add to Favorites</a><br/>
                             </td>
                         </tr>
                     </tbody>

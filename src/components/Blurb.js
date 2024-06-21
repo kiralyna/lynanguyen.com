@@ -3,7 +3,7 @@ import data from '../data.json';
 import '../App.css';
 
 function Blurb() {
-    const {} = data;
+/*    const {} = data;*/
 
     return (
         <div id="tiles">
