@@ -33,7 +33,7 @@ function AboutMe() {
                     <tr id="about-mood">
                         <td id="mood">
                             <b>Mood:</b> {mood} {emoji}<br/>
-                            View My: <a href = {resume} class='download' download="NguyenLyna_Resume" target = "_blank" rel="noreferrer">Resume</a> | <a href = {videos} target = "_blank" rel="noreferrer">Videos</a>
+                            View My: <a href = {resume} target = "_blank" rel="noreferrer">Resume</a> | <a href = {videos} target = "_blank" rel="noreferrer">Videos</a>
                         </td>
                     </tr>
                 </tbody>
