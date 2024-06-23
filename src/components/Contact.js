@@ -3,7 +3,7 @@ import data from '../data.json';
 import '../App.css';
 
 function Contact() {
-    const { email, linkedin, instagram, addFriendIcon, favoritesIcon, messageIcon } = data;
+    const { email, linkedin, github, addFriendIcon, favoritesIcon, messageIcon } = data;
 
     return (
         <div id="tiles">
@@ -30,7 +30,7 @@ function Contact() {
                         <tr id="insta">
                             <td id="contact-insta">
                                 <img alt ="add icon" src = {favoritesIcon}></img>
-                                <a href = {instagram} target = "_blank" rel="noreferrer">Add to Favorites</a><br/>
+                                <a href = {github} target = "_blank" rel="noreferrer">Add to Favorites</a><br/>
                             </td>
                         </tr>
                     </tbody>

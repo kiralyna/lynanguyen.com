@@ -126,6 +126,11 @@ a:active {
     margin-bottom: 5px;
 }
 
+#mood {
+    text-align: left;
+    width: 100%;
+}
+
 /*Contact*/
 #contact-email img {
     width: 5%;
@@ -167,3 +172,6 @@ a:active {
 }
 
 /*Blurb*/
+#blurb-body p {
+    padding: 0px 10px;
+}
